@@ -1,4 +1,6 @@
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
+## SOBRE O PROJETO
+
+Este projeto foi desenvolvido como forma de avaliação dos conhecimentos em Context API e React Hooks, no curso de Desenvolvimento Web Full-Stack da Trybe, onde sou estudante.
 
 ## HABILIDADES
 
@@ -16,7 +18,6 @@ Nesse projeto, você será capaz de:
 
 - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
 - [Como desenvolver](#como-desenvolver)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
 - [Requisitos do projeto](#requisitos-do-projeto)
   - [Linter](#linter)
 - [Lista de requisitos](#lista-de-requisitos)
