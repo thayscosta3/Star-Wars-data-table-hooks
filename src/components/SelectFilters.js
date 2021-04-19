@@ -143,7 +143,7 @@ export default function SelectFilters() {
         >
           {columnsNames.map((item) => (
             <option key={ item } value={ item }>{item}</option>
-            ))}
+          ))}
         </select>
         <label className="btn btn-dark" htmlFor="ASC">
           Ascendente

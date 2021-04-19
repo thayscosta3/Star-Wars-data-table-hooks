@@ -5,7 +5,9 @@ import TableBody from './TableBody';
 function StarWarsPlanetsTable() {
   return (
     <main>
-      <table class="table table-striped table-hover table-sm table-bordered table-dark" border="1">
+      <table
+        className="table table-striped table-hover table-sm table-bordered table-dark"
+      >
         <TableHead />
         <TableBody />
       </table>
