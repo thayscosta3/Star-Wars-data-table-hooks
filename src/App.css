@@ -8,8 +8,15 @@
 }
 
 .btn {
-  height: 3vmin;
   padding: 10px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.input {
+  padding: 5px;
+  margin: 0 auto;
+  height: 5vmin;
 }
 
 .header {

@@ -68,7 +68,7 @@ export default function SelectFilters() {
       <div>
         <select
           name="column-filter"
-          className="btn-dark"
+          className="btn btn-dark"
           data-testid="column-filter"
           onChange={
             ({ target: { value } }) => setFilterObject({
@@ -102,6 +102,7 @@ export default function SelectFilters() {
         </select>
         <input
           type="number"
+          className="input"
           data-testid="value-filter"
           placeholder="Number"
           onChange={
