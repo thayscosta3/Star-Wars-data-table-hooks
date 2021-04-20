@@ -10,7 +10,8 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-scripts": "^3.4.1",
-    "reactstrap": "^8.9.0"
+    "reactstrap": "^8.9.0",
+    "serve": "^11.3.2"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -18,13 +19,13 @@
     ]
   },
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "test-coverage": "react-scripts test --coverage --watchAll=false",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx"
-  },
+    "heroku-postbuild": "npm run build"
+    },
   "eslintConfig": {
     "extends": "react-app"
   },
