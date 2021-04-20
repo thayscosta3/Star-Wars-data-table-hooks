@@ -2,6 +2,9 @@
 
 Este projeto foi desenvolvido como forma de avaliação dos conhecimentos em Context API e React Hooks, no curso de Desenvolvimento Web Full-Stack da Trybe, onde sou estudante.
 
+## DEPLOY DA APLICAÇÃO
+[Deploy no Heroku](https://star-wars-data-table-hooks.herokuapp.com/)
+
 ## HABILIDADES
 
 Nesse projeto, você será capaz de:
