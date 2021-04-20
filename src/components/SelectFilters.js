@@ -68,7 +68,7 @@ export default function SelectFilters() {
       <div>
         <select
           name="column-filter"
-          className="btn btn-dark"
+          className="btn-dark"
           data-testid="column-filter"
           onChange={
             ({ target: { value } }) => setFilterObject({
